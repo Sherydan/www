@@ -3,21 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php bloginfo('description');?></title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
 </head>
 <body>
 <h1><?php bloginfo('name');?></h1>	
 <h1><?php bloginfo('description');?></h1>	
-<ul>
-	<li><?php bloginfo('name');?></li>
-	<li><?php bloginfo('wpurl');?></li>
-	<li><?php bloginfo('admin_email');?></li>
-	<li><?php bloginfo('charset');?></li>
-	<li><?php bloginfo('version');?></li>
-	<li><?php bloginfo('html_type');?></li>
-	<li><?php bloginfo('language');?></li>
-	<li><?php bloginfo('stylesheet_directory');?></li>
-	<li><?php bloginfo('stylesheet_url');?></li>
-</ul>
+
+<div class="alert alert-info" role="alert">
+    <strong>Arriba!</strong> Esta alerta necesita tu atencion,
+    pero  importante no es.
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
