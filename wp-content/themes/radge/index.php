@@ -4,21 +4,21 @@
 	<meta charset="UTF-8">
 	<title><?php bloginfo('description');?></title>
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
+
+<link rel="stylesheet" href="<?php bloginfo(stylesheet_url)?>">
+
 </head>
 <body>
-<h1><?php bloginfo('name');?></h1>	
-<h1><?php bloginfo('description');?></h1>	
+<header >
+<nav class="navbar navbar-fixed-top navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Mi portafolio</a>
+</nav>
+</header>
 
-<div class="alert alert-info" role="alert">
-    <strong>Arriba!</strong> Esta alerta necesita tu atencion,
-    pero  importante no es.
-</div>
+<p class="textos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam amet sapiente distinctio, temporibus tenetur sint, blanditiis non ipsam minima maiores, ipsum illum molestias, deleniti rerum qui! Autem, sed quasi culpa.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ad labore aut numquam fugit. Perspiciatis illo illum, optio quisquam eius quae facilis natus placeat temporibus ipsum ea eos vitae perferendis!</p>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
