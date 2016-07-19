@@ -11,9 +11,18 @@
 <body>
 
 <header>
-<nav class="navbar navbar-dark bg-inverse">
-  <!-- Navbar content -->
-</nav>	
+
+       <nav class="navbar navbar-dark bg-inverse" role="navigation">
+       <div class="container">
+       	<div class="navbar-header">
+       		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+       			
+       		</button>
+       	</div>
+       </div>
+        <!-- Navbar content -->
+      </nav>	
+
 </header>
 <section class="main container"></section>
 <footer></footer>
