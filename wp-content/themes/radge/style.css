@@ -7,9 +7,10 @@ Version: 1.0;
 Description:  hola dfd
 */
 body {
-background-color: green;
+
 }
+
 .textos {
-	font-size: 50px;
+	font-size: 15px;
 	font-family: arial black;
 }
